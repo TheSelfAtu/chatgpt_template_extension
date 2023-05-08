@@ -19,6 +19,13 @@
   "homepage": "https://github.com/TheSelfAtu/chatgpt_template_extension#readme",
   "devDependencies": {
     "@types/chrome": "^0.0.234",
-    "typescript": "^5.0.4"
+    "@types/node": "^18.16.3",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "dependencies": {
+    "webextension-polyfill-ts": "^0.26.0"
   }
 }

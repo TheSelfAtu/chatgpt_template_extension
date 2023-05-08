@@ -6,26 +6,8 @@
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
+      "48": "icon48.svg"
     }
   },
-  "permissions": ["activeTab"],
-  "commands": {
-    "insert_typescript": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+T",
-        "mac": "Command+Shift+T"
-      },
-      "description": "Insert TypeScript template"
-    },
-    "insert_ddd": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+D",
-        "mac": "Command+Shift+D"
-      },
-      "description": "Insert DDD template"
-    }
-  }
+  "permissions": ["activeTab"]
 }
